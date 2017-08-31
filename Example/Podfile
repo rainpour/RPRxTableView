@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RPRxTableView_Example' do
+  pod 'RPRxTableView', :path => '../'
+
+  target 'RPRxTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
