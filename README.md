@@ -1,6 +1,6 @@
 # RPRxTableView
 
-[![CI Status](http://img.shields.io/travis/hoy@flitto.com/RPRxTableView.svg?style=flat)](https://travis-ci.org/hoy@flitto.com/RPRxTableView)
+[![CI Status](http://img.shields.io/travis/rainpour@icloud.com/RPRxTableView.svg?style=flat)](https://travis-ci.org/rainpour@icloud.com/RPRxTableView)
 [![Version](https://img.shields.io/cocoapods/v/RPRxTableView.svg?style=flat)](http://cocoapods.org/pods/RPRxTableView)
 [![License](https://img.shields.io/cocoapods/l/RPRxTableView.svg?style=flat)](http://cocoapods.org/pods/RPRxTableView)
 [![Platform](https://img.shields.io/cocoapods/p/RPRxTableView.svg?style=flat)](http://cocoapods.org/pods/RPRxTableView)
@@ -22,7 +22,7 @@ pod "RPRxTableView"
 
 ## Author
 
-hoy@flitto.com, hoy@flitto.com
+rainpour@icloud.com, rainpour@icloud.com
 
 ## License
 

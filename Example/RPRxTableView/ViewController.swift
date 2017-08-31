@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  RPRxTableView
 //
-//  Created by hoy@flitto.com on 08/31/2017.
-//  Copyright (c) 2017 hoy@flitto.com. All rights reserved.
+//  Created by rainpour on 08/31/2017.
+//  Copyright (c) 2017 rainpour@icloud.com. All rights reserved.
 //
 
 import UIKit
