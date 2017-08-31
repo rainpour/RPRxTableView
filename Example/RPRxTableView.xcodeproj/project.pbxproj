@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		90A559261F57B6FA0031D9A7 /* SampleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A559221F57B6FA0031D9A7 /* SampleDetailViewController.swift */; };
+		90A559271F57B6FA0031D9A7 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A559231F57B6FA0031D9A7 /* SampleModel.swift */; };
+		90A559281F57B6FA0031D9A7 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A559241F57B6FA0031D9A7 /* SampleViewController.swift */; };
+		90A559291F57B6FA0031D9A7 /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A559251F57B6FA0031D9A7 /* SampleViewModel.swift */; };
 		9155461A43EFA3F7B1F4D239 /* Pods_RPRxTableView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA056AEC0EC61A351289BCB0 /* Pods_RPRxTableView_Tests.framework */; };
 		DB81032276D3C551CEBAF0D7 /* Pods_RPRxTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E49592388374260F78E407A /* Pods_RPRxTableView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -31,19 +34,22 @@
 		0EB8AA3E72B71EEB777A56D6 /* Pods-RPRxTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPRxTableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RPRxTableView_Example/Pods-RPRxTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4E49592388374260F78E407A /* Pods_RPRxTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPRxTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B07D6722454CE9A88E5CCE /* Pods-RPRxTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPRxTableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RPRxTableView_Example/Pods-RPRxTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5EA1D07B18C1D39B19CDE59D /* RPRxTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RPRxTableView.podspec; path = ../RPRxTableView.podspec; sourceTree = "<group>"; };
+		5EA1D07B18C1D39B19CDE59D /* RPRxTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RPRxTableView.podspec; path = ../RPRxTableView.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RPRxTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPRxTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* RPRxTableView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPRxTableView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		840C85902ECC8F5AEDF456B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A489705B9C7D793D5E0F878A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		840C85902ECC8F5AEDF456B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		90A559221F57B6FA0031D9A7 /* SampleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDetailViewController.swift; sourceTree = "<group>"; };
+		90A559231F57B6FA0031D9A7 /* SampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		90A559241F57B6FA0031D9A7 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		90A559251F57B6FA0031D9A7 /* SampleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		A489705B9C7D793D5E0F878A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA056AEC0EC61A351289BCB0 /* Pods_RPRxTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPRxTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09DC2949B005C82F6D558AB /* Pods-RPRxTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPRxTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RPRxTableView_Tests/Pods-RPRxTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE270810CD7A01129433382A /* Pods-RPRxTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPRxTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RPRxTableView_Tests/Pods-RPRxTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,11 +111,13 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				90A5592B1F57B71F0031D9A7 /* Model */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				90A5592A1F57B7160031D9A7 /* View */,
+				90A5592C1F57B7240031D9A7 /* ViewModel */,
 			);
 			name = "Example for RPRxTableView";
 			path = RPRxTableView;
@@ -148,6 +156,31 @@
 				A489705B9C7D793D5E0F878A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		90A5592A1F57B7160031D9A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90A559221F57B6FA0031D9A7 /* SampleDetailViewController.swift */,
+				90A559241F57B6FA0031D9A7 /* SampleViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		90A5592B1F57B71F0031D9A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90A559231F57B6FA0031D9A7 /* SampleModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90A5592C1F57B7240031D9A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90A559251F57B6FA0031D9A7 /* SampleViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		A594CC6451A3D88C413CB05C /* Frameworks */ = {
@@ -215,11 +248,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						DevelopmentTeam = TPHMSSJ93F;
+						LastSwiftMigration = 0830;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						DevelopmentTeam = TPHMSSJ93F;
+						LastSwiftMigration = 0830;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -337,11 +372,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RPRxTableView_Example/Pods-RPRxTableView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RPRxTableView/RPRxTableView.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RPRxTableView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,8 +415,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				90A559291F57B6FA0031D9A7 /* SampleViewModel.swift in Sources */,
+				90A559281F57B6FA0031D9A7 /* SampleViewController.swift in Sources */,
+				90A559261F57B6FA0031D9A7 /* SampleDetailViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				90A559271F57B6FA0031D9A7 /* SampleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +553,7 @@
 			baseConfigurationReference = 59B07D6722454CE9A88E5CCE /* Pods-RPRxTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TPHMSSJ93F;
 				INFOPLIST_FILE = RPRxTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -519,6 +568,7 @@
 			baseConfigurationReference = 0EB8AA3E72B71EEB777A56D6 /* Pods-RPRxTableView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TPHMSSJ93F;
 				INFOPLIST_FILE = RPRxTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C09DC2949B005C82F6D558AB /* Pods-RPRxTableView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TPHMSSJ93F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE270810CD7A01129433382A /* Pods-RPRxTableView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TPHMSSJ93F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RPRxTableView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RPRxTableView.'
+  s.summary          = 'UITableViewController with RxSwift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RPRxTableView/Classes/**/*'
-  
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'RxAlamofire'
+  s.dependency 'RxDataSources'
+
   # s.resource_bundles = {
   #   'RPRxTableView' => ['RPRxTableView/Assets/*.png']
   # }

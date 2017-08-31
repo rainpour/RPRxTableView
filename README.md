@@ -22,7 +22,7 @@ pod "RPRxTableView"
 
 ## Author
 
-rainpour@icloud.com, rainpour@icloud.com
+Hoyeon Kim, rainpour@icloud.com
 
 ## License
 
